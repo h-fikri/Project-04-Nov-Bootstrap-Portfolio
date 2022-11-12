@@ -1,11 +1,78 @@
 .jumbotron {
-    background-image: url("/images/02-hero-bg.jpg");
-    background-size: cover;
+  background-image: url("/images/02-hero-bg.jpg");
+  background-size: cover;
 }
-.col-2, .about-content, .work-content, .contact-content {
-    outline: 1px lightgreen solid;
+/* .col-2,
+.about-content,
+.work-content,
+.contact-content {
+  outline: 1px lightgreen solid;
 }
 
 .nested {
-    outline: 1px red solid;
+  outline: 1px red solid;
+} */
+
+/* #navbarNavAltMarkup {
+  outline: 1px red solid;
+} */
+
+/* .navbar {
+  outline: 1px red solid;
+} */
+
+/* .navbar-nav {
+  margin-right: 8rem;
+} */
+
+#cool {
+  height: 100%;
+  background-color: aqua;
+}
+
+.navbar-brand {
+  background-color: aqua;
+}
+
+#picture1 {
+  background-image: url(/images/02-portfolio-2.jpg);
+  background-size: cover;
+  height: 30rem;
+  opacity: 0.7;
+}
+#picture2 {
+  background-image: url(/images/02-portfolio-1.jpg);
+  background-size: cover;
+  height: 10rem;
+  opacity: 0.7;
+}
+#picture3 {
+  background-image: url(/images/02-portfolio-3.jpg);
+  background-size: cover;
+  height: 10rem;
+  opacity: 0.7;
+}
+#picture4 {
+  background-image: url(/images/02-portfolio-4.jpg);
+  background-size: cover;
+  height: 10rem;
+  opacity: 0.7;
+}
+#picture5 {
+  background-image: url(/images/02-run-buddy.jpg);
+  background-size: cover;
+  height: 10rem;
+  opacity: 0.7;
+}
+
+#picture1:hover,
+#picture2:hover,
+#picture3:hover,
+#picture4:hover,
+#picture5:hover {
+  opacity: 1;
+}
+
+.worktext {
+  background-color: rgba(0, 255, 255, 0.6);
 }
