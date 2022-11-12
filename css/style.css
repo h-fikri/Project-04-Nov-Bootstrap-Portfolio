@@ -1,0 +1,11 @@
+.jumbotron {
+    background-image: url("/images/02-hero-bg.jpg");
+    background-size: cover;
+}
+.col-2, .about-content, .work-content, .contact-content {
+    outline: 1px lightgreen solid;
+}
+
+.nested {
+    outline: 1px red solid;
+}

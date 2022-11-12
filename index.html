@@ -6,37 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap Project</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href=".">Husain Web Design</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link active" href="#aboutme">About Me<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#workme">Work</a>
+            <a class="nav-link" href="#contactme">Contact Me</a>
+            <a class="nav-link" href="." >Resume</a>
           </div>
         </div>
       </nav>
     </header>
     <section class="section-jumbotron">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">Cool Webdesign</h1>
-              <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-            </div>
-          </div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h2 class="text-light">Cool Webdesign</h2>
+        </div>
+      </div>
     </section>
     <main>
-        
+      <div class="container">
+        <div class="row">
+          <div class="about col-2" id="aboutme">about</div>
+          <div class="about-content col-sm-10">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis corporis animi voluptatum natus esse porro fugiat, ullam ducimus voluptatibus, nobis temporibus aliquid quas cum consequatur libero at. Beatae, fugit! Perspiciatis dolore cupiditate iusto repellendus quibusdam, fuga asperiores nostrum culpa deserunt enim minima dicta quam delectus reprehenderit excepturi, quos, corporis incidunt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab consequuntur natus tenetur doloribus aperiam, sit atque cupiditate perferendis quasi enim laudantium ad sed a repellendus quam! Provident inventore autem harum, cumque quas minima! Voluptatum, delectus reiciendis amet eaque placeat non ducimus labore repellendus fuga laborum, incidunt, optio ex dignissimos.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="work col-2" id="workme">work</div>
+          <div class="work-content col-10">
+            <div class="container nested">
+              <div class="row">
+                <div class="col" id="picture1">
+                  <h5>Surf Report</h4>
+                  <p>MERN Stack</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col" id="picture2">
+                  <h5>LED Wall</h4>
+                  <p>Node/IoT</p>
+                </div>
+                <div class="col" id="picture3">
+                  <h5>Calculator</h4>
+                  <p>React / Javascript</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col" id="picture4">
+                  <h5>Pastel Puzzle</h4>
+                  <p>MERN Stack</p>
+                </div>
+                <div class="col" id="picture5">
+                  <h5>Run Buddy</h4>
+                  <p>HTML/CSS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact col-2" id="contactme">contact</div>
+          <div class="contact-content col-sm-10">contact-content</div>
+        </div>
+      </div>
     </main>
-    <footer></footer>
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2022 Copyright. Made with ❤️ Husain F Hidayah</div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
   </body>
