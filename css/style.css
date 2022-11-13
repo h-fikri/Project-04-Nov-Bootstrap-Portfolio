@@ -26,7 +26,6 @@ html {
   background-color: aqua;
 }
 
-
 #picture1 {
   background-image: url(/images/02-portfolio-2.jpg);
   height: 30rem;
@@ -68,4 +67,52 @@ html {
 
 .worktext {
   background-color: rgba(0, 255, 255, 0.6);
+}
+
+.contact-content ul li {
+  list-style-type: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: fit-content;
+}
+.contact-content ul {
+  display: flex;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .about.text-sm-left {
+    text-align: left;
+  }
+
+  #picture1 {
+    height: 10rem;
+  }
+
+  #picture1 .worktext {
+    background-color: greenyellow;
+    width: auto;
+  }
+
+  .work h2,
+  .about h2,
+  .contact h2 {
+    width: fit-content;
+    border-right: none !important;
+    border-bottom: 3px solid #000000;
+    text-align: left !important;
+  }
+
+  .contact-content ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact-content ul li {
+    padding: 0;
+    margin: 0;
+  }
 }
