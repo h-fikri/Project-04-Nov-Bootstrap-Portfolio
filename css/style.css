@@ -1,68 +1,61 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .jumbotron {
   background-image: url("/images/02-hero-bg.jpg");
   background-size: cover;
-}
-/* .col-2,
-.about-content,
-.work-content,
-.contact-content {
-  outline: 1px lightgreen solid;
-}
-
-.nested {
-  outline: 1px red solid;
-} */
-
-/* #navbarNavAltMarkup {
-  outline: 1px red solid;
-} */
-
-/* .navbar {
-  outline: 1px red solid;
-} */
-
-/* .navbar-nav {
-  margin-right: 8rem;
-} */
-
-#cool {
-  height: 100%;
-  background-color: aqua;
 }
 
 .navbar-brand {
   background-color: aqua;
 }
 
+.navbar-nav .nav-link {
+  /* outline: 1px red solid; */
+  border-bottom: 2px solid rgba(0, 255, 255, 0.5);
+}
+
+.navbar-nav .nav-link:hover {
+  /* outline: 1px red solid; */
+  border-bottom: 2px solid aqua;
+}
+
+#cool {
+  height: 100%;
+  background-color: aqua;
+}
+
+
 #picture1 {
   background-image: url(/images/02-portfolio-2.jpg);
-  background-size: cover;
   height: 30rem;
   opacity: 0.7;
 }
+
 #picture2 {
   background-image: url(/images/02-portfolio-1.jpg);
-  background-size: cover;
-  height: 10rem;
-  opacity: 0.7;
 }
+
 #picture3 {
   background-image: url(/images/02-portfolio-3.jpg);
-  background-size: cover;
-  height: 10rem;
-  opacity: 0.7;
 }
+
 #picture4 {
   background-image: url(/images/02-portfolio-4.jpg);
-  background-size: cover;
-  height: 10rem;
-  opacity: 0.7;
 }
+
 #picture5 {
   background-image: url(/images/02-run-buddy.jpg);
+}
+
+#picture2,
+#picture3,
+#picture4,
+#picture5 {
   background-size: cover;
-  height: 10rem;
   opacity: 0.7;
+  height: 10rem;
 }
 
 #picture1:hover,
