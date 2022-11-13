@@ -1,5 +1,20 @@
 # Unit 3 Challenge: Code Bootstrap Portfolio
 
+## Notes:
+* I do apologize as this assignment is submitted late because this week I had plenty of workshift I need to do. 
+
+* The bootstrap framework was a challenging task as I never code-along and looked at actual website building. So, everything needs to be read from the documentation. 
+
+* The challenges during my learning was applying the mobile-first concept. I still need to learn by watching and practicing real live website building using mobile-first concept, and scale it to desktop version. I never encountered this concept before. 
+
+* Customization: Building website from CSS framework has plenty of limitation, especially with the media queries. It is definitely simpler if the website doesn’t have medium to high level of customization. But for more complex project and personalization, using CSS framework actually makes me work harder and more difficult than using pure CSS. 
+
+* There are plenty of improvisation that needs to be done, such as small details, refactoring, accomodating more breakpoints in the media queries, and color accuracy. However, the current live URL at 13 November 2022 seems to be quite satisfactory as I need to learn the Javascript basic, especially the iteration and loop.
+
+## Link to Live URL:
+
+https://h-fikri.github.io/Project-04-Nov-Bootstrap-Portfolio/ 
+
 ## Overview
 
 In this assignment, you'll be building your portfolio layout using the Bootstrap CSS Framework.
