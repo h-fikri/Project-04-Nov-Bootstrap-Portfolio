@@ -3,7 +3,7 @@ html {
 }
 
 .jumbotron {
-  background-image: url("/images/02-hero-bg.jpg");
+  background-image: url("../images/02-hero-bg.jpg");
   background-size: cover;
 }
 
@@ -27,25 +27,25 @@ html {
 }
 
 #picture1 {
-  background-image: url(/images/02-portfolio-2.jpg);
+  background-image: url(../images/02-portfolio-2.jpg);
   height: 30rem;
   opacity: 0.7;
 }
 
 #picture2 {
-  background-image: url(/images/02-portfolio-1.jpg);
+  background-image: url(../images/02-portfolio-1.jpg);
 }
 
 #picture3 {
-  background-image: url(/images/02-portfolio-3.jpg);
+  background-image: url(../images/02-portfolio-3.jpg);
 }
 
 #picture4 {
-  background-image: url(/images/02-portfolio-4.jpg);
+  background-image: url(../images/02-portfolio-4.jpg);
 }
 
 #picture5 {
-  background-image: url(/images/02-run-buddy.jpg);
+  background-image: url(../images/02-run-buddy.jpg);
 }
 
 #picture2,
